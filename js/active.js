@@ -62,7 +62,7 @@
             loop: true,
             dots: true,
             autoplay: true,
-            autoplayTimeout: 5000,
+            autoplayTimeout: 100000,
             smartSpeed: 1000,
             responsive: {
                 0: {
