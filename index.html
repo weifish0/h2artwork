@@ -6,7 +6,13 @@
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+
 
     <!-- Title  -->
     <title>形象的叛逆</title>
@@ -16,6 +22,7 @@
 
     <!-- Style CSS -->
     <link rel="stylesheet" href="style.css">
+    
 
 </head>
 
@@ -28,19 +35,7 @@
     </div>
     <!-- Preloader End -->
 
-    <!-- Grids -->
-    <div class="grids d-flex justify-content-between">
-        <div class="grid1"></div>
-        <div class="grid2"></div>
-        <div class="grid3"></div>
-        <div class="grid4"></div>
-        <div class="grid5"></div>
-        <div class="grid6"></div>
-        <div class="grid7"></div>
-        <div class="grid8"></div>
-        <div class="grid9"></div>
-    </div>
-
+    
     <!-- ***** Main Menu Area Start ***** -->
     <div class="mainMenu d-flex align-items-center justify-content-between">
         <!-- Close Icon -->
@@ -141,7 +136,7 @@
                             <div class="hero-slides-content">
                                 <div class="line"></div>
                                 <h2 style="font-weight:bold">關於馬格利特的稗官野史</h2>
-                                <p >馬格利特的母親患有精神疾病，曾經多次嘗試自殺以結束生命，這迫使其丈夫利奧波德必須將她關進她自己的臥室監視著。1912年的某天，馬格利特的母親成功逃脫並且失蹤了好幾天。直到3月12日時她的屍體在附近一英哩左右的桑布爾河被發現，隨後被認定是投河自殺但是實際原因不明。據傳當時13歲的馬格利特親眼看見其母親的屍體從水中撈上來，這使得一些說法認為由於當時母親浮屍時被發現時衣飾覆蓋臉部的畫面在他腦海中留下深刻印象，而讓包括1927年至1928年的畫作《愛人》（Les Amants）等作品都常以衣布覆蓋著臉孔作為主要元素</p>
+                                <p >馬格利特的母親患有精神疾病，曾經多次嘗試自殺以結束生命，這迫使其丈夫利奧波德必須將她關在她自己的臥室。1912年的某天，馬格利特的母親成功逃脫並且失蹤了好幾天。直到3月12日時她的屍體在附近一英哩左右的桑布爾河被發現，隨後被認定是投河自殺但是實際原因不明。據傳當時13歲的馬格利特親眼看見其母親的屍體從水中撈上來，母親浮屍時被發現時衣飾覆蓋臉部的畫面在他腦海中留下深刻印象，使得包括1927年至1928年的畫作《愛人》等作品都常以衣布覆蓋著臉孔作為主要元素</p>
                             </div>
                         </div>
                     </div>
@@ -166,6 +161,31 @@
     </section>
     <!-- ***** Hero Area End ***** -->
 
+    <div class="music-container" id="music-container">
+        <div class="music-info">
+          <h4 id="title"></h4>
+          <div class="progress-container" id="progress-container">
+            <div class="progress" id="progress"></div>
+          </div>
+        </div>
+  
+        <audio src="./music/夜空中最亮的星 (coverby 1580).mp3" id="audio"></audio>
+  
+        <div class="img-container">
+          <img src="./img/music_cover/" alt="music-cover" id="cover" />
+        </div>
+        <div class="navigation">
+          <button id="prev" class="action-btn">
+            <i class="fas fa-backward"></i>
+          </button>
+          <button id="play" class="action-btn action-btn-big">
+            <i class="fas fa-play"></i>
+          </button>
+          <button id="next" class="action-btn">
+            <i class="fas fa-forward"></i>
+          </button>
+        </div>
+      </div>
     <!-- ***** Portfolio Area Start ***** -->
     <div class="portfolio-area section-padding-100">
         <div class="container">
@@ -176,6 +196,9 @@
                     </div>
                 </div>
             </div>
+            
+
+    
 
             <div class="row justify-content-between">
                 <!-- Single Portfoio Area -->
@@ -346,6 +369,7 @@
     <script src="js/plugins.js"></script>
     <!-- Active js -->
     <script src="js/active.js"></script>
+    <script src="js/music.js"></script>
 
 </body>
 
