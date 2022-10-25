@@ -1466,9 +1466,9 @@ img {
 
 
 .music-container {
-  background-color: rgb(105, 194, 232);
+  background-color: rgba(16, 26, 14, 0.619);
   border-radius: 15px;
-  box-shadow: 0 20px 20px 0 rgba(106, 205, 247, 0.3);
+  box-shadow: 0 20px 20px 0 rgba(38, 38, 38, 0.307);
   display: flex;
   padding: 20px 30px;
   position: relative;
@@ -1518,7 +1518,7 @@ img {
 }
 
 .action-btn {
-  background-color: rgb(105, 194, 232);
+  background-color: rgba(16, 26, 14, 0);
   border: 0;
   color: rgb(255, 255, 255);
   font-size: 20px;
@@ -1537,7 +1537,7 @@ img {
 }
 
 .music-info {
-  background-color: rgba(113, 220, 249, 0.5);
+  background-color: rgba(46, 46, 46, 0.333);
   border-radius: 15px 15px 0 0;
   position: absolute;
   top: 0;
@@ -1569,7 +1569,7 @@ img {
 }
 
 .progress {
-  background-color: #7ce0ff;
+  background-color: rgba(38, 52, 42, 0.571);
   border-radius: 5px;
   height: 100%;
   width: 0%;
